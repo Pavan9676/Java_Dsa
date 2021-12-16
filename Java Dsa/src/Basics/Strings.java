@@ -19,12 +19,8 @@ public class Strings {
         }
 //        b.charAt(1);
         System.out.println(b.charAt(3));
-
-
-
         int a = 6;
         a = 7;
-
     }
 }
 
