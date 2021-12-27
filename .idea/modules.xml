@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ImplemantaaionOfStack/ImplemantaaionOfStack.iml" filepath="$PROJECT_DIR$/ImplemantaaionOfStack/ImplemantaaionOfStack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ImplemantationOfDataStructurs.iml" filepath="$PROJECT_DIR$/ImplemantationOfDataStructurs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Dsa.iml" filepath="$PROJECT_DIR$/Java-Dsa.iml" />
     </modules>
   </component>
 </project>
