@@ -10,7 +10,7 @@ public class Factorial {
         System.out.println((result));
     }
 
-    private static int fact(int num1) {
+    public static int fact(int num1) {
         int temp = 1;
         while(num1 > 1){
             temp*=num1;

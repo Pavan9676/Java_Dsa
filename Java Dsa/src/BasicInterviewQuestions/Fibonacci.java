@@ -4,12 +4,8 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
-
-
         Scanner s = new Scanner(System.in);
         int num = s.nextInt();
-        //fibonacci(num);
-//        System.out.println((num));
         for(int i=0; i<num; i++){
             System.out.println(nTh(i));
         }
