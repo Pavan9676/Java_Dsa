@@ -7,8 +7,9 @@ public class Strings {
 
         StringBuilder builder = new StringBuilder(10);
         for(int i=1;i <= 10; i++ ){
-            builder.append(i);
+            builder.append(i).append(" ");
         }
+        System.out.println(builder);
         System.out.println(builder.capacity());
 
         // Buffer
@@ -24,5 +25,4 @@ public class Strings {
     }
 }
 
-// privmitives and non primiteives
 

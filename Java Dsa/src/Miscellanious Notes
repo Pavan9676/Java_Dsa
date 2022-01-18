@@ -1,0 +1,4 @@
+Command Line Arguments:
+    String[] args is an array of string type.
+    This array is used to take the command line arguments.
+    Command line arguments are passed during the time of execution.

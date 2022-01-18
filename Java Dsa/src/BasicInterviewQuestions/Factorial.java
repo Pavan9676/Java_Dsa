@@ -1,12 +1,13 @@
 package BasicInterviewQuestions;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Factorial {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        int r;
         int num1 = s.nextInt();
-        int result = fact(num1);
+        int result = rfact(num1);
         System.out.println((result));
     }
 
@@ -17,5 +18,13 @@ public class Factorial {
             num1-=1;
         }
         return temp;
+    }
+    public static int rfact(int num){
+        if(num == 1){
+            return 1;
+        }
+        else{
+            return num*rfact(num-1);
+        }
     }
 }

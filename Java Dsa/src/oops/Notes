@@ -1,0 +1,47 @@
+
+
+OOPS
+
+CLASS:
+    class is a blueprint of an object.
+    class is used to create objects.
+    class contains methods and variables
+
+OBJECT:
+    object is a instance of class.
+    object is created by using new key word
+
+THIS KEYWORD:
+    This keyword is used to refer to the present class
+    this keyword is used to call the present class methods and variables.
+    In inheritance, this keyword is used to refer to the child class
+    this keyword is used to access the child class properties
+
+SUPER KEYWORD:
+    Super keyword is used to refer to the Parent class
+    Parent class properties( variables and methods) can be accessed using the super keyword
+
+
+INSTANCE VARIABLES:
+    Instance variables are present inside the class and outside of methods.
+    Instance variables are initialized when a Object is created.
+    Instance variable of one object do not depend on other object.
+    Instance variables belongs to the particular object.
+
+
+
+CONSTRUCTORS:
+    Constructor is a special method used to Construct Object
+    Constructor is also used to initialize Instance variables (class variables)
+    constructor do not have return type
+    TYPES CONSTRUCTORS:
+        PARAMETERIZED
+        NON PARAMETERIZED
+
+    DEFAULT CONSTRUCTOR:
+        Default constructor is used to initialize the class variables
+        if we do not create any constructor, Default constructor is automatically created by the compiler
+
+
+
+Default

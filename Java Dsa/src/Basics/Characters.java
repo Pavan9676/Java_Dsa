@@ -8,7 +8,7 @@ public class Characters {
         char ch = s.next().charAt(0);
         System.out.println(ch);
 
-       for(int i = 0; i <= 256; i++){
+       for(int i = 0; i <= 25; i++){
             System.out.println((char)i);
         }
 

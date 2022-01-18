@@ -9,12 +9,12 @@ public class LCM {
         int num2 = s.nextInt();
         int h = Math.max(num1,num2);
         while(true){
-            if (num1%h == 0 && num2%h ==0){
+            if (h%num1==0 && h%num2==0){
                 System.out.println(h);
                 break;
             }
             else{
-                h--;
+                h++;
             }
 
         }
