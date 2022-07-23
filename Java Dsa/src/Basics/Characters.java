@@ -7,8 +7,9 @@ public class Characters {
         Scanner s = new Scanner(System.in);
         char ch = s.next().charAt(0);
         System.out.println(ch);
+        System.out.println((int)'a');
 
-       for(int i = 0; i <= 25; i++){
+       for(int i = 'A'; i <= 'Z'; i++){
             System.out.println((char)i);
         }
 
